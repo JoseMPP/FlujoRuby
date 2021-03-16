@@ -1,6 +1,6 @@
 ﻿
 
-namespace ApiProductor.Models
+namespace fncConsumidor.Models
 {
     using System;
     using System.ComponentModel.DataAnnotations;
@@ -14,5 +14,4 @@ namespace ApiProductor.Models
         [Required]
         public string Event { get; set; }
     }
-
 }
